@@ -1,5 +1,5 @@
 variable  "deployment_image" {
-    default = "docker.fuchicorp.com/hello-world-app-dev-feature:4b7aacb"
+    default = "fsadykov/hello-world:latest"
 }
 variable "deployment_environment" {
     default = "dev"
